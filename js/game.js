@@ -136,7 +136,7 @@ class Game{
                        // gameState = 1;
                         gameState = 2;
                        // gameState = 3;
-                      }
+                      }}}
         
                 showRank() {
                     alert("Awesome !! You finished the game! You rank is :" +player.rank)
@@ -159,9 +159,9 @@ class Game{
     {       
             var x, y;
             //x= 200;
-            x = random(0, width-100);
+           // x = random(0, width-100);
             //x = random(0);
-            //x = random();
+            x = random();
             
             
             y = 0
